@@ -1,0 +1,13 @@
+# Overview
+
+This is a swift package library that can fetch by other app to call specific feature in platform
+
+# Capabilities
+
+- Fetch Device Model & OS
+- Fetch Battery Percentage
+- etc
+
+# Rules
+
+- Use Solid Principle & Clean Architecture
