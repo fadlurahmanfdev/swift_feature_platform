@@ -4,14 +4,14 @@ Pod::Spec.new do |s|
   s.authors          = 'Taufik Fadlurahman Fajari'
   s.summary          = 'MyPlatform iOS SDK'
   s.description      = 'MyPlatform native iOS SDK.'
-  s.homepage         = 'https://github.com/fadlurahmanfdev/MyPlatform'
+  s.homepage         = 'https://fadlurahmafdev.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
 
   s.platform         = :ios, '14.0'
   s.swift_version    = '6.0'
 
   s.source           = {
-    :git => 'https://github.com/fadlurahmanfdev/MyPlatform.git',
+    :git => 'https://github.com/fadlurahmanfdev/swift_feature_platform.git',
     :tag => s.version.to_s
   }
 
