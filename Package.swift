@@ -4,26 +4,26 @@
 import PackageDescription
 
 let package = Package(
-    name: "MPlatform",
+    name: "MyPlatform",
     platforms: [
         .iOS(.v14)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "MPlatform",
-            targets: ["MPlatform"]
+            name: "MyPlatform",
+            targets: ["MyPlatform"]
         ),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "MPlatform"
+            name: "MyPlatform"
         ),
         .testTarget(
-            name: "MPlatformTests",
-            dependencies: ["MPlatform"]
+            name: "MyPlatformTests",
+            dependencies: ["MyPlatform"]
         ),
     ],
     swiftLanguageModes: [.v6]

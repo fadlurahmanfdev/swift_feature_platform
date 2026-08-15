@@ -5,7 +5,7 @@
 //  Created by Taufik Fadlurahman Fajari on 21/07/26.
 //
 
-import MPlatform
+import MyPlatform
 import SwiftUI
 
 struct ContentView: View {
@@ -42,10 +42,10 @@ struct ContentView: View {
         )
     ]
     
-    let mPlatform = MPlatform()
+    let myPlatform = MyPlatform()
     
     init() {
-        mPlatform.initialize()
+        myPlatform.initialize()
     }
     
     var body: some View {
@@ -68,7 +68,7 @@ struct ContentView: View {
                 }
             }
             .padding()
-            .navigationTitle("Example MPlatform")
+            .navigationTitle("Example MyPlatform")
             .navigationBarTitleDisplayMode(.inline)
         }
     }
@@ -87,7 +87,7 @@ struct ContentView: View {
     
     func fetchDeviceModel(){
         do {
-            let deviceModel = try mPlatform.deviceModel()
+            let deviceModel = try myPlatform.deviceModel()
             print("Device Model: \(deviceModel)")
         } catch {
             print("Error \(error.localizedDescription)")
@@ -96,7 +96,7 @@ struct ContentView: View {
     
     func fetchDeviceID(){
         do {
-            let deviceID = mPlatform.deviceID()
+            let deviceID = myPlatform.deviceID()
             print("Device ID: \(deviceID)")
         } catch {
             print("Error \(error.localizedDescription)")
@@ -104,19 +104,19 @@ struct ContentView: View {
     }
     
     func disabledScreenCapture(){
-        mPlatform.disableScreenCapture()
+        myPlatform.disableScreenCapture()
     }
     
     func enableScreenCapture(){
-        mPlatform.enableScreenCapture()
+        myPlatform.enableScreenCapture()
     }
     
     func enableDataLeakageProtection(){
-        mPlatform.enableDataLeakageProtection()
+        myPlatform.enableDataLeakageProtection()
     }
     
     func disableDataLeakageProtection(){
-        mPlatform.disableDataLeakageProtection()
+        myPlatform.disableDataLeakageProtection()
     }
 }
 

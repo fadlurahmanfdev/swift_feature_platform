@@ -1,6 +1,6 @@
 import Foundation
 
-public class MPlatform {
+public class MyPlatform {
     private let deviceRepository: DeviceRepository
     private let screenProtector: ScreenProtectorRepository
 

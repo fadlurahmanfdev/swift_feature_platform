@@ -1,6 +1,6 @@
 //
 //  ScreenProtectorRepositoryImpl.swift
-//  MPlatform
+//  MyPlatform
 //
 //  Created by Taufik Fadlurahman Fajari on 09/08/26.
 //

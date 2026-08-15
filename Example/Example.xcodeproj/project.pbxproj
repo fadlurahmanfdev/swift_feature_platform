@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA3864D9301F71AA00C74AB4 /* MPlatform in Frameworks */ = {isa = PBXBuildFile; productRef = AA3864D8301F71AA00C74AB4 /* MPlatform */; };
+		AA3864D9301F71AA00C74AB4 /* MyPlatform in Frameworks */ = {isa = PBXBuildFile; productRef = AA3864D8301F71AA00C74AB4 /* MyPlatform */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA3864D9301F71AA00C74AB4 /* MPlatform in Frameworks */,
+				AA3864D9301F71AA00C74AB4 /* MyPlatform in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +117,7 @@
 			);
 			name = Example;
 			packageProductDependencies = (
-				AA3864D8301F71AA00C74AB4 /* MPlatform */,
+				AA3864D8301F71AA00C74AB4 /* MyPlatform */,
 			);
 			productName = Example;
 			productReference = AA85BB63300F92410083F1F3 /* Example.app */;
@@ -202,7 +202,7 @@
 			mainGroup = AA85BB5A300F92410083F1F3;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				AA3864D7301F71AA00C74AB4 /* XCLocalSwiftPackageReference "../../MPlatform" */,
+				AA3864D7301F71AA00C74AB4 /* XCLocalSwiftPackageReference ".." */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AA85BB64300F92410083F1F3 /* Products */;
@@ -591,16 +591,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		AA3864D7301F71AA00C74AB4 /* XCLocalSwiftPackageReference "../../MPlatform" */ = {
+		AA3864D7301F71AA00C74AB4 /* XCLocalSwiftPackageReference ".." */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../MPlatform;
+			relativePath = ..;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		AA3864D8301F71AA00C74AB4 /* MPlatform */ = {
+		AA3864D8301F71AA00C74AB4 /* MyPlatform */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = MPlatform;
+			productName = MyPlatform;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

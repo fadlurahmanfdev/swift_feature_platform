@@ -1,13 +1,15 @@
 # Overview
 
-This is a swift package library that can fetch by other app to call specific feature in platform
+This is a Swift package library that other apps can fetch to call platform-specific features.
 
 # Capabilities
 
 - Fetch Device Model & OS
 - Fetch Battery Percentage
+- Screen capture / data leakage protection
 - etc
 
 # Rules
 
 - Use Solid Principle & Clean Architecture
+- Public module / product name is `MyPlatform`

@@ -7,10 +7,10 @@
 //
 
 import UIKit
-import MPlatform
+import MyPlatform
 
 final class AppLifecycleObserver {
-    let mPlatform = MPlatform()
+    let myPlatform = MyPlatform()
     
     func start() {
         NotificationCenter.default.addObserver(
@@ -38,7 +38,7 @@ final class AppLifecycleObserver {
         // incoming call, switching apps, etc.)
         // Hide sensitive UI / pause sensitive work here.
 //        print("[AppLifecycle] willResignActive — app became inactive")
-//        mPlatform.preventScreenshot()
+//        myPlatform.disableScreenCapture()
     }
 
     @objc
